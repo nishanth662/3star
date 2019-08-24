@@ -12,7 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    if(\Illuminate\Support\Facades\Auth::check())
+    {
+        return redirect('home');
+    }
+    else
+    {
+        return redirect('login');
+    }
 });
 
 
@@ -20,4 +27,3 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::resource('utilities', 'utilityController');
