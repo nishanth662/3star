@@ -27,3 +27,20 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
+
+
+Route::resource('admins', 'adminController');
+
+Route::resource('users', 'userController');
+
+
+
+Route::resource('utilities', 'sportsController');
+
+Route::resource('sportsEvents', 'sports_eventsController');
+
+Route::resource('sportsImages', 'sportsImageController');
+
+Route::resource('eventImages', 'eventImageController');
+
+Route::get('search_sports','adminController@search_sports');
