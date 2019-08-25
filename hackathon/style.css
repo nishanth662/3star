@@ -1,0 +1,129 @@
+body
+{
+    margin: 0px auto 0px auto;
+    width:100%;
+    background-image: url(images/sport.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+.navbar.navbar-inverse.d1
+{
+    background-color: #252523cc;
+    border:none;
+}
+.nav.navbar-nav.navbar-right .dropdown-menu
+{
+    background-color: #dddd9ccc;
+    border:none;
+}
+.container
+{
+    width: 100%;
+    height: auto;
+}
+.row 
+{
+    margin: 5%;
+}
+.col-md-4.div_for_contact
+{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    background: linear-gradient(135deg, #F44336 0%,#204e21 69%);
+    border-radius: 50px;
+    padding: 1.2%;
+}
+a.refer
+{
+    text-decoration: none;
+    font-size: 150%;
+    color: #fff;
+}
+a.refer:hover
+{
+    color: aqua;
+}
+h4
+{
+    color: #fff;
+    text-align: center;
+    margin-right: 10%
+}
+.col-md-4.div_for_logo .photo_fb
+{
+    width: 20%;
+    height: 20%;
+    margin: 0 10% 0 20%;
+}
+.col-md-4.div_for_logo .photo_google
+{
+    width: 15%;
+    height: 15%;
+    border-radius: 50px;
+}
+.row.middle
+{
+    margin-top: 100px;
+}
+.row.up
+{
+    margin-top: 30px;
+}
+.row.down
+{
+    margin-top: 1px;
+}
+
+.page1
+{
+    text-align: center;
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(165, 42, 83);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h1
+{
+    color: cornsilk;
+    text-align: center;
+    font-family: cursive;
+}
+.form-control
+{
+    
+    width: 100%;
+}
+.form
+{
+    margin:-10% auto 0px 0%; 
+}
+.form_bg
+{
+    background-color: #191818c7;
+    opacity: 0.9;
+    width: 50%;
+    height: auto;
+}
+.form_bg.about
+{
+    width: 80%;
+}
+.back_about
+{
+    background-color: #204e21;
+}
+.btn.btn-default
+{
+    margin-top: 3%;
+    margin-left: 35%;
+    
+    width: 26%;
+}
+.row.log
+{
+    margin: 0px auto 0px auto;
+    height:auto;
+}
